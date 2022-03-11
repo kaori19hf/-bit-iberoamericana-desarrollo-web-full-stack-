@@ -1,47 +1,64 @@
 body{
-    text-align: center;
+    
     font-family: cursive;
 }
 
-
-nav{
+header{
     background-color: #D82148;
     width: 100%;
     font-size: 20px;
-    font-family: cursive;
+}
+
+nav{
     padding: 10px;
-
-}
-li{
-    
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 33px;
-
-}
-li :link{
-    color: #fff;
-}
-li :visited{
-    color: #9ADCFF;
-}
-li :hover{
-    color: #EFA8E4;
 }
 .logo{
     border-radius: 100%;
-    width: 25%;
+    width: 20%;
+    
+}
+ul{
+    list-style-type: none;
+   
+}
+li{
+    display: inline;
+    margin: 10px;
+    
     
     
 }
+a{
+    
+    text-decoration: none;
+}
+
+a:link{
+    color: #fff;
+}
+a:visited{
+    color: #9ADCFF;
+}
+a:hover{
+    color: #EFA8E4;
+}
+
+
 .coffee-shop{
     width: 70%;
+    padding: 10px;
+    
+    
+    
+    
+    
 }
 
 .middle-container{
     background-color: #FF616D;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 
 }
 h1{
@@ -56,17 +73,19 @@ p{
 hr{
     width: 30%;
 }
-.button{
-    background-color: #fff;
-    border-radius: 12px;
-    
+
+.btn:hover{
+    background-color:#D82148;
+    color: #fff;
+
 }
 
 .fa-brands{
-    color:#D82148;
+    color:#fff;
 
 }
 
-.bottom-container{
+footer{
     background-color: #D82148;
+    padding-top: 20px;
 }
