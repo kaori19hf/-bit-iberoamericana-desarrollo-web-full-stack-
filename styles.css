@@ -24,24 +24,20 @@ ul{
 li{
     display: inline;
     margin: 10px;
-    
-    
-    
 }
-a{
-    
-    text-decoration: none;
+a :hover{
+    color:#fff;
 }
-
 a:link{
     color: #fff;
 }
 a:visited{
     color: #9ADCFF;
 }
-a:hover{
-    color: #EFA8E4;
-}
+
+
+
+
 
 
 .coffee-shop{
@@ -74,18 +70,20 @@ hr{
     width: 30%;
 }
 
-.btn:hover{
+.btn :hover{
     background-color:#D82148;
     color: #fff;
 
 }
 
 .fa-brands{
-    color:#fff;
+    color:#9ADCFF;
 
 }
 
 footer{
     background-color: #D82148;
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
