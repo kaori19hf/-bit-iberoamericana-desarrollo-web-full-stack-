@@ -1,0 +1,33 @@
+body{
+    background-color: #CE49BF;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+div{
+    background-color: #E4AEC5;
+    margin: 0 30% 0 30%;
+    padding: 20px;
+}
+h1{
+color: #46244C;
+
+}
+h2{
+    color: #711A75;
+    padding: 5px 0 5px 0;
+}
+h3{
+    padding: 5px 0 5px 0;
+}
+
+p{
+    padding: 5px 0 5px 0;
+}
+
+button{
+    color: #711A75;
+   font-family: cursive;
+   border-color: #81308f;
+   border-radius: 10px;
+}
