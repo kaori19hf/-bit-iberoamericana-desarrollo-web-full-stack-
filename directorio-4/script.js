@@ -35,19 +35,6 @@ document.addEventListener("DOMContentLoaded",()=>{
             $edad.textContent =edad ;
             $mayormenor.textContent= "Eres mayor de edad"
         }
-        // do{
-        //     edad= prompt("Cuantos años tienes?");
-        //     edad=parseInt(edad);
-        //     if(NaN(edad)){
-        //         alert("Numero no valido");
-        //     }else if(edad<0 || edad>200){
-        //         alert("No valido");
-        //     }else if(edad=>18 || edad<200){
-        //     }
-        //     else{
-        //         alert("No puedes ingresar");
-        //     }
-        // }while (!flag);
-      
+       
          });   
     });
