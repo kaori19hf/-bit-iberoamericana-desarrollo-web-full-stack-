@@ -1,3 +1,5 @@
 # bit-course-01
 
-este es el repositorio numero 1. 
+titulo: Coffee Shop
+Descripcion: Pagina Web para un café.
+Autor: Kaori Hisatomi
