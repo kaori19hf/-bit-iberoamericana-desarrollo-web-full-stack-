@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded",() =>{
         }else if($message.value === ""){
             alert("Por favor ingresa un mesaje valido");     
         }else{
-            $text.textContent="Mensaje Enviado";
+            location.reload();
+            alert("Enviado");
         }
 
     });
