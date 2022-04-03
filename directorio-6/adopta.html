@@ -32,14 +32,77 @@
         <p>El acto de adoptar es un gran compromiso y responsabilidad, antes de hacer tal decision es importante que estes comprometido a aceptar a un nuevo integrante en tu familia.</p>
         <h2>Si te sientes listo, lee los pasos a seguir </h2>
         <ul>
-        <li>Debes de llenar un formulario, que vas a pedir atraves de la pagina de contacto.</li>
+        <li>Debes de llenar un formulario, que vas a encontrar cuando inicies sesion.</li>
         <li>Cuando sea aprobada tu solicitud, te contactaremos por medio de tu correo, para progrmar una entrevista.</li>
         <li>Una vez acabada la entrevista podras escoger a tu nuevo compañero</li>
         </ul>
+        <button type="button" id="login" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Inicia Sesion
+        </button>
         <img src="imagenes/adopta.png" alt="">
         <h3>Los primeros meses estaremos en contacto contigo para saber como va la relacion y el cuidado de tu mascota. </h3>
 
-    </main>
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="email" class="form-control" id="username" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1"  class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                 
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal2">Requisitos</button>
+                  
+                    <button type="submit" id="submit" class="btn btn-primary"><a href="private.html" id="private" class="nav-link disabled"> submit</a></button>
+                    
+                   
+                  
+                  
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" tabindex="-1" id="modal2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Requisitos</h5>
+                <button type="button" class="btn-close" id="close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li  class="requisitos">Ser mayor de 18 años</li>
+                  <li  class="requisitos">Fotocopia de la cedula de ciudadania</li>
+                  <li  class="requisitos">Disponer de 45- 60 minutos de tiempo para realizar el proceso de adopción</li>
+                  <li  class="requisitos">Disponer de tiempo, espacio y recursos suficientes.</li>
+                  <li  class="requisitos">Aprobar el proceso de adopción (entrevista).</li>
+                  <li  class="requisitos">Contar con espacio suficiente para convivir con el animal.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
     <footer>
         <h2>Creemos en los nuevos comienzos.</h2>
         <div id="redes">
@@ -50,7 +113,13 @@
      
      </footer>
 
-     
+    
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+     crossorigin="anonymous"
+   ></script>
 <script src="https://kit.fontawesome.com/2625ba1edb.js" crossorigin="anonymous"></script>
+<script src="login.js"></script>
 </body>
 </html>
