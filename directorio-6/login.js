@@ -31,7 +31,7 @@ const handleSubmit = () =>{
         console.log(password);
         
         if (username  && password ) {
-            window.open("file:///C:/Users/Usuario/Documents/bit-iberoamericana-desarrollo-web-full-stack/directorio-6/private.html");
+            window.open("private.html");
             
             
         }else if (!username  && !password){
